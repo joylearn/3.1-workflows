@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket       = "sctp-tfsate-ce13"
+    bucket       = "sctp-tfstate-ce13"
     key          = "jl/31-workflow.tfstate"
     region       = "us-east-1"
   }
